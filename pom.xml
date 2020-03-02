@@ -46,14 +46,18 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
                 <configuration>
-                    <goals>install</goals>
+
+                    <localCheckout>true</localCheckout>
+                    <pushChanges>false</pushChanges>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
+
     <scm>
-        <developerConnection>scm:svn:https://github.com/ahmadkurdo/sfg-pet-clinic.git</developerConnection>
+        <connection>scm:git:https://github.com/ahmadkurdo/sfg-pet-clinic.git</connection>
+
     </scm>
 
 </project>
