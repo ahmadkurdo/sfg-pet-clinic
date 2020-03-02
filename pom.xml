@@ -53,7 +53,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:svn:https://github.com/ahmadkurdo/sfg-pet-clinic.git/tags/sfg-pet-clinic-0.0.1</developerConnection>
+        <developerConnection>scm:svn:https://github.com/ahmadkurdo/sfg-pet-clinic.git</developerConnection>
     </scm>
 
 </project>
