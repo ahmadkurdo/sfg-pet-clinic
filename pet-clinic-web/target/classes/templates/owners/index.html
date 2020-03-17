@@ -18,9 +18,9 @@
         </thead>
         <tbody>
         <tr th:each="owner : ${owners}">
-            <td th:text="${owner.getFirstName()}">1</td>
+            <td th:text="${owner.getId()}">1</td>
             <td th:text="${owner.getFirstName()}">Ahmed</td>
-            <td th:text="${owner.getFirstName()}"></td>
+            <td th:text="${owner.getLastName()}"></td>
         </tr>
         </tbody>
     </table>
